@@ -95,12 +95,8 @@ Promise.resolve().then(() => console.log("C"));
 console.log("D");
 
 
-Output:
+Output: A D C B
 
-A
-D
-C
-B
 
 
 This clearly shows microtasks (Promise) executing before macrotasks (setTimeout).
